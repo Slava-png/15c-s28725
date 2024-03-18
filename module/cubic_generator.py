@@ -11,4 +11,3 @@ class CubicGenerator(SquareGenerator):
 
         print("List of cubes from 1 to 10: ", cubes)
         # Task 9: Function Overriding was done in commit "Task 8: Inheritance"
-
