@@ -1,14 +1,5 @@
-import math
+import square_generator as sg
 
+sg = sg.SquareGenerator()
+sg.e_squares(1, 10)
 
-class SquareGenerator:
-    def e_squares(self, start, end):
-        if start > end:
-            raise ValueError("Start is greater than end")
-
-        squares = [math.pow(x, 2) for x in range(start, end)]
-
-        print("List of squares from 1 to 10: ", squares)
-
-
-SquareGenerator().e_squares(11, 10)
