@@ -10,4 +10,5 @@ class CubicGenerator(SquareGenerator):
         cubes = [math.pow(x, 3) for x in range(start, end)]
 
         print("List of cubes from 1 to 10: ", cubes)
+        # Task 9: Function Overriding was done in commit "Task 8: Inheritance"
 
